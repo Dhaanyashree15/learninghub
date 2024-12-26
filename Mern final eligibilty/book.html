@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>book now</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>LEARNING HUB</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="book.html">Book Now</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="booking-form">
+            <h2>Book Your Course</h2>
+            <form action="#" method="POST">
+                <label for="course-title">Select Course:</label>
+                <select id="course-title" name="course-title" required>
+                    <option value="course1">Course 1</option>
+                    <option value="course2">Course 2</option>
+                    <option value="course3">Course 3</option>
+                    <option value="course4">Course 4</option>
+                </select>
+                <br><br>
+                
+                <label for="date">Select Course Date:</label>
+                <input type="date" id="date" name="date" required>
+                <br><br>
+
+                <label for="time">Select Time Slot:</label>
+                <select id="time" name="time" required>
+                    <option value="10:00 AM">10:00 AM</option>
+                    <option value="2:00 PM">2:00 PM</option>
+                    <option value="6:00 PM">6:00 PM</option>
+                    <option value="9:00 PM">9:00 PM</option>
+                </select>
+                <br><br>
+
+                <button type="submit">SUBMIT</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; learninghub.com</p>
+    </footer>
+</body>
+</html>
